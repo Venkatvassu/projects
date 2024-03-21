@@ -1,0 +1,76 @@
+.dd {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	height: 500px;
+	width: 400px;
+	background-color: black;
+	margin: auto;
+}
+.bt {
+	height: 100px;
+	width: 200px;
+}
+.off {
+	background-color: red;
+	border-radius: 30px;
+	height: 20px;
+	width: 50px;
+	color: white;
+	
+
+}
+.on{
+	background-color: green;
+	border-radius: 30px;
+	color: white;
+	height: 20px;
+	width: 50px;
+	
+}
+.bt {
+	background-color: silver;
+	width: 200px;
+	height: 100px;
+	
+	
+
+}
+.bt button {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+
+.dd {
+	background-color: red;
+	width: 50%;
+	padding: 100px;
+	margin: auto;
+}
+.db {
+	background-color: yellow;
+	border: 5px solid green;
+	padding: 40px;
+}
+
+.cd {
+	border: 20px solid silver;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	border-left-color: green;
+	border-bottom-color: yellow;
+}
+.cd div>p {
+	text-align: center;
+	padding: 30px 0;
+	border-left-color: green;
+}
+.cd:hover {
+	border: 20px solid;
+	transition: width 2s;
+	border-right-color: hotpink;
+	border-top-color: tomato;
+}

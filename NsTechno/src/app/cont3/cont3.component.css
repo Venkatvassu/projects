@@ -1,0 +1,53 @@
+div h1 {
+    color: #29244f;
+    font-size: 30px;
+    text-align: center;
+}
+.row {
+    text-align: center;
+    margin-top: 100px;
+}
+.dd {
+    width: 50%;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 50px;
+}
+.dd h1 {
+    font-weight: bold;
+    text-align: left;
+}
+.dd span {
+    font-weight: 600;
+}
+.pp {
+    width: 50%;
+
+}
+.pp img {
+    height: 400px;
+    width: 400px;
+    transition: transform .2s;
+}
+.pp img:hover{
+    transform: scale(1.1);
+
+}
+@media screen and (min-width:400px) and (max-width:778px){
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .dd {
+        margin-left: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .dd h1 {
+        text-align: center;
+    }
+    .pp img {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,91 @@
+<div class="container bg-danger m-auto">
+    <h1 class="text-center text-white">Page NOt Found</h1>
+
+</div>
+
+
+<div class="container">
+    <div class="row-1 d-flex">
+        <div>
+            <!-- <h1 id="one">{{one}}</h1> -->
+        </div>
+        <div>
+            <h1 id="two">989</h1>
+        </div>
+        <div>
+            <h1 id="three">765</h1>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+<!-- <div class="container">
+    <div class="row-2">
+        <div>
+            <h1 id="number">100+</h1>
+        </div>
+
+    </div>
+
+</div> -->
+
+<!-- <div class="w-100 bg-info h-auto">
+    <div class="table" *ngFor="let prod of proddata">
+        <h1>{{prod.images}}</h1><hr>
+    </div>
+
+</div> -->
+
+<!-- data-table.component.html -->
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Images</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prod of proddata">
+        <td>{{ prod.id }}</td>
+        <td>{{ prod.price }}</td>
+        <td>{{ prod.description }}</td>
+        <td>{{ prod.images }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div *ngFor="let prod of proddata" class="bb d-flex">
+
+  <div class="ng">
+    <h1>{{prod.title}}</h1>
+    {{prod.brand}}
+  <img [src]="prod.images[1]" alt="Image">
+  <h2>{{prod.price}}</h2>
+  <h3>{{prod.category}}</h3>
+  <h3>{{prod.description}}</h3>
+  </div>
+
+  <div class="ng">
+    <h1>{{prod.title}}</h1>
+    {{prod.brand}}
+  <img [src]="prod.images[2]" alt="Image">
+  <h2>{{prod.price}}</h2>
+  <h3>{{prod.category}}</h3>
+  <h3>{{prod.description}}</h3>
+  </div>
+
+  <div class="ng">
+    <h1>{{prod.title}}</h1>
+    {{prod.brand}}
+  <img [src]="prod.images[3]" alt="Image">
+  <h2>{{prod.price}}</h2>
+  <h3>{{prod.category}}</h3>
+  <h3>{{prod.description}}</h3>
+  </div>
+  </div>

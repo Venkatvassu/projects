@@ -1,0 +1,44 @@
+.containar {
+    color: #29244f;
+    margin-top: 100px;
+}
+.containar h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.row-box div {
+    border-radius: 30px;
+    width: 33%;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #29244f;
+}
+.row-box div:hover {
+    background-color: silver;
+    transform: scale(1.1);
+    margin: 30px;
+}
+.ff{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:400px) and (max-width:779px) {
+
+    .row-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row-box div {
+        width: 100%;
+        height: auto;
+        padding: auto;
+
+    }
+}

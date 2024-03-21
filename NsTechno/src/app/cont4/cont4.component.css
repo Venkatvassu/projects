@@ -1,0 +1,16 @@
+.cc h1{
+    color: #29244f;
+}
+.cc {
+    margin-top: 50px;
+}
+.cc p {
+    margin-top: 30px;
+}
+@media screen and (min-width:400px) and (max-width:778px) {
+    .cc h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,697 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.navi {
+	width: 80%;
+	background-color: #81C408;
+	height: 60px;
+	margin: auto;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+
+}
+.newyark {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+}
+.newyark li {
+	float: left;
+	padding: 5px;
+	padding-top: 25px;
+	padding-left: 50px;
+	list-style-type: none;
+
+}
+.newyark li:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.fa-solid {
+	color: yellow;
+	padding-right: 4px;
+}
+.policy  {
+	float: right;
+
+}
+.policy li {
+	float: left;
+	list-style-type: none;
+	padding:15px;
+	color: white;
+
+}
+.policy li:hover {
+	color: orange;
+	cursor: pointer;
+}
+.main-nav {
+	background-color: white;
+	width: 100%;
+	height: 80px;
+
+}
+.main-nav:scroll {
+position: fixed;
+	top: 0;
+	overflow: auto;
+}
+.main-nav ul {
+	margin: auto;
+	float: left;
+	margin-top: 0px;
+}
+.main-nav li{
+	float: right;
+	list-style-type: none;
+
+}
+.ttl {
+	padding-left: 100px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #81C408;
+}
+.ttl:hover {
+	cursor: pointer;
+}
+.main-nav .menus {
+	padding-left: 200px;
+
+}
+.main-nav ul {
+	padding: 20px;
+}
+.main-nav li {
+	padding: 10px;
+	list-style-type: none;
+	color: gray;
+	float: left;
+	font-weight: bold;
+
+}
+.main-nav li:hover {
+	color: green;
+	cursor: pointer;
+}
+.fa-magnifying-glass  {
+	color: green;
+	border-radius: 50px;
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	border-color: yellow;
+	border-style: solid;
+	border-width: 1px;
+	padding:4px;
+	font-size: 25px;
+
+
+}
+.fa-magnifying-glass:hover {
+	background-color: yellow;
+}
+
+.bag {
+	color: #81C408;
+	padding-left: 20px;
+	font-size:30px;
+}
+.bag:hover {
+	color: green;
+	
+}
+.user {
+	color: #81C408;
+	padding-left: 20px;
+	font-size: 30px;
+}
+.use: {
+	color: green;
+}
+.cont1 {
+	background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg");
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+.food {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.cont1-data {
+	padding-left: 100px;
+	padding-top: 150px;
+	text-align: center;
+
+}
+.cc {
+	height: 600px;
+	width: 600px;
+	padding-left: 100px;
+	padding-top: 100px;
+
+}
+.org {
+	font-size: 50px;
+	color: #81C408;
+	font-weight: bold;
+	font-style: solid;
+	padding: 20px;
+	text-align: center;
+
+}
+.bar {
+	border-width: 2px;
+	border-style: solid;
+	border-color: yellow;
+	border-radius: 40px;
+	width: 500px;
+	height: 70px;
+	padding-left: 20px;
+}
+.mybt {
+	width: 200px;
+	height: 70px;
+	padding-left: -200px;
+	border-radius: 40px;
+	background-color: #81C408;
+	border-color: yellow;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: -100px;
+
+
+}
+.mybt:hover {
+	background-color: orange;
+	cursor: pointer;
+
+}
+.cd {
+	height: 300px;
+	width: 300px;
+	background-color: #edf7f3;
+	margin:auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 30px;
+	text-align: center;
+	
+
+}
+.itc {
+	color: #f5a122;
+	font-size: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.cont3 ul{
+	float: right;
+	padding-right: 200px;
+	padding-top: -100px;
+	margin:auto;
+}
+.cont3 li {
+	padding-top: -200px;
+	float: left;
+	padding:10px;
+	list-style-type: none;
+	text-align: center;
+}
+.cont3 li:hover {
+cursor: pointer;
+	
+	
+}
+.cont3 .frt {
+	padding: 10px;
+	font-size: 40px;
+	color:  #81C408;
+	margin-left: 100px;
+	margin-top: 30px;
+
+}
+.cont3 li:hover {
+	background-color: yellow;
+	width: 150px;
+	height: 50px;
+	border-radius: 40px;
+	text-align: center;
+
+}
+.cnt {
+	width: 300px;
+	height: 400px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: yellow;
+	text-align: center;
+	padding-top: -100px;
+	margin: 20px;
+	margin-top: 100px;
+	
+
+
+}
+.cnt:hover {
+	box-shadow: 10px 10px 10px 10px #888888;
+}
+.cnt img:hover {
+	 -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  cursor: pointer;
+  
+}
+.cnt img {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	transition: transform .2s;
+}
+.cnt button {
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: white;
+	color: green;
+	margin-left: 50px;
+
+}
+.cnt  button:hover {
+	background-color: yellow;
+	border-color: green;
+	border-width: 2px;
+	border-style: solid;
+
+}
+.cd3 {
+	border-radius: 30px;
+	border-width: 2ps;
+	border-color: red;
+	border-style: solid;
+	width: 300px;
+	height: 400px;
+	margin-left: 50px;
+
+
+
+}
+.cd3 .t1 {
+	background-color: orange;
+	height: 150px;
+	width: 295px;
+	padding:5px;
+	border-radius: 30px;
+
+}
+.cd3 .t1 .t2{
+	background-color: green;
+	height: 100px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	padding: 6px;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+
+}
+.cd3 .t2{
+	margin-top: -100px;
+
+}
+.cont5 {
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.all h1 {
+	color: green;
+	font-size: 50px;
+	font-weight: bold;
+	float: left;
+	margin-top: 100px;
+	padding-left: 50px;
+}
+.cont7 {
+	background-color: #f5a122;
+	width: 100%;
+	height: 600px;
+	margin-top: 200px;
+	text-align: center;
+	margin: auto;
+
+}
+.cont7-data h1{
+	color: white;
+	font-size: 70px;
+	padding-top: 100px;
+	font-family: Fantasy;
+
+
+}
+.cont7-data h2 {
+	color: darkblue;
+	font-size: 50px;
+}
+.cont7-data p {
+	color: blue;
+	font-size: 16px;
+}
+.cont7-data {
+	padding: 30px;
+}
+.cont7-data button {
+	height: 50px;
+	width: 150px;
+	background-color: #f5a122;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: -10px;
+	border-color: white;
+
+
+}
+.cont7-data button:hover {
+	 background-color: green;
+	 color: white;
+}
+.cont7-img {
+	height: 500px;
+	margin: auto;
+
+}
+.best {
+	text-align: center;
+	margin-top: 100px;
+
+}
+.best h1 {
+	color: blue;
+	font-size: 40px;
+	font-weight: bold;
+}
+.best p {
+	color: gray;
+}
+.tamato {
+	border-radius: 50px;
+	height: 150px;
+	width: 150px;
+}
+.tmt-data {
+	text-align: center;
+	padding:10px;
+	font-size: 10px;
+	color: darkblue;
+}
+.tmt-data h2 {
+	font-size: 20px;
+}
+.tmt-data button {
+	width: 100px;
+	border-radius: 30px;
+	height: 30px;
+	background-color: white;
+	margin: auto;
+}
+.tmt-data button:hover {
+	background-color: green;
+}
+.tmt {
+	background-color: #edf7f3;
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+	margin-left: 20px;
+	padding: 20px;
+}
+.cont8 {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.mnt {
+	border-color: transparent;
+}
+.mmm {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+.fff {
+	background-color: #edf7f3;
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	padding: 20px;
+
+}
+.fa-users {
+	font-size: 80px;
+	color: #f5a122;
+	
+	padding-bottom: 10px;
+
+}
+.fff-cd {
+	height: 250px;
+	width: 200px;
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 30px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.fff-cd:hover {
+	 -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.nn {
+	padding: 20px;
+}
+.testing {
+	text-align: center;
+	margin-top: 100px;
+}
+.testing h5 {
+	font-size: 20px;
+}
+.testing h1 {
+	font-size: 50px;
+	color: gray;
+	font-weight: bold;
+}
+.monal {
+	background-color: silver;
+	width: 400px;
+}
+.ft {
+	width: 100%;
+	height: 600px;
+	background-color: gray;
+	margin-top: 100px;
+
+}
+.kk {
+	padding: 50px;
+}
+.myn {
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	padding-right: 50px;
+}
+.kk input {
+	padding-left: 100px;
+	border-radius: 30px;
+	border-color: yellow;
+	height: 70px;
+	width: 400px;
+}
+.icons {
+	padding-left: 200px;
+	font-size: 40px;
+	color: yellow;
+}
+.fa-brands:hover {
+	color: red;
+}
+.kk button {
+	padding-left: -100px;
+	height: 70px;
+	width: 200px;
+	background-color: green;
+	border-radius: 40px;
+	margin-left: -100px;
+	border-color: yellow;
+
+}
+.kk button:hover {
+	background-color: yellow;
+}
+.hh li{
+	list-style-type: none;
+	color: white;
+}
+.hh {
+	margin: auto;
+	margin-top: 50px;
+}
+.hh li:hover {
+	color: green;
+	cursor: pointer;
+}
+
+.fa-star {
+	color: yellow;
+	font-size: 16px;
+}
+.tm1 {
+	background-color: #edf7f3;
+	width: 500px;
+	height: 200px;
+	padding: 20px;
+	border-radius: 30px;
+	border-color: red;
+	border-width: 1px;
+	border-style: solid;
+
+}
+.tm {
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+
+}
+.mr {
+	margin: 20px;
+}
+.aaa address:hover {
+	color: red;
+	cursor: pointer;
+}
+.tm {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-bottom: 1rem;
+  padding-right: var(--page-margin);
+}
+.mn {
+	background-color: #e1e8e2;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: auto;
+}
+.r1 {
+	border-radius: 30px;
+	border-width: 1px;
+	height: 40px;
+	width: 400px;
+	padding-left: 20px;
+
+	
+}
+.r1 h1 {
+	padding-left: 20px;
+
+}
+.r2 {
+	border-radius: 30px;
+	border-width: 1px;
+	height: 40px;
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+
+	
+}
+.ck div {
+	background-color: white;
+	border-radius: 30px;
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	padding: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+}
+.ck {
+	padding-left: 20px;
+}
+.cv {
+	padding-left: -50px;
+}
+.banar {
+	background-image: url("https://themewagon.github.io/fruitables/img/cart-page-header-img.jpg");
+	width: auto;
+	height: 200px;
+	margin-bottom: 100px;
+}
+.cv .bnn {
+	background-color: white;
+	width: 400px;
+	height:40px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+	color: green;
+}
+.bnn:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.ck h1 {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 500px){
+
+	.mn {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: red
+	}
+}
+@media screen and (min-width: 900px){
+
+	.banar {
+
+		background-color: blue;
+	}
+}

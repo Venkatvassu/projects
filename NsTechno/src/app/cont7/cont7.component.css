@@ -1,0 +1,29 @@
+.why {
+    width: 80%;
+    color: white;
+    background-color: #29244f;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (min-width:400px) and (max-width:778px) {
+
+    .why {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+}
+.ll li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color: #29244f;
+}
+.ll {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}

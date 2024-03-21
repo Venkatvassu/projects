@@ -1,0 +1,21 @@
+.carousel {
+    width: 80vw;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.carousel-caption {
+    margin-bottom: 100px;
+}
+.carousel-item img {
+    width: 80vw;
+    height: 400px;
+}
+@media screen and (min-width:400px) and (max-width:779px) {
+    .carousel {
+        width: auto;
+        height: 400px;
+    }
+
+}

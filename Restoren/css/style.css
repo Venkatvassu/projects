@@ -1,0 +1,448 @@
+* {
+	margin: 0px;
+	padding:0px;
+
+}
+.main-bg {
+	background-image: linear-gradient(to top, rgba(45, 42, 87, 0.92), rgba(45, 42, 87, 0.90)),url("https://themewagon.github.io/restoran/img/bg-hero.jpg");
+	
+	background-size: cover;
+	height: 640px;
+
+}
+.collapse ul {
+	padding-left: 300px;
+	color: red;
+}
+.collapse button {
+	width: 200px;
+	height: 40px;
+	background-color: orange;
+	border-radius: 5px;
+	border-color: transparent;
+	color: white;
+
+
+}
+.collapse li {
+	color: white;
+}
+.nav-item a  {
+	color: white;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+	.main-bg {
+		height: auto;
+	}
+	
+}
+.lg {
+	font-size: 50px;
+	color: orange;
+}
+
+.roll button{
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: orange;
+
+}
+
+.roll p {
+	text-align: left;
+}
+.roll  h1 {
+	font-family: Fantasy;
+	font-size: 50px;
+}
+.roll-data {
+	margin-left: 100px;
+}
+.roll-img {
+	margin-left: 100px;
+	margin-right: 50px;
+
+}
+
+.img {
+	height: 400px;
+	width: 400px;
+
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+}
+.roll {
+	color: white;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+
+	.roll{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.roll-bt {
+		margin-left: 180px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		margin-left: 100px;
+
+	}
+	.roll-data {
+		margin-left: 50px;
+	}
+	.roll-img {
+		margin-left: 25px;
+	}
+}
+.cont2 {
+	
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+		.cont2 {
+			margin-top: 150px;
+			margin-bottom: 100px;
+			
+
+		}
+}
+
+.cont2 .cd {
+	height: 250px;
+	width: 250px;
+	background-color: transparent;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 30px;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+
+.cont2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+	margin-bottom: 200px;
+}
+.cont2 .cd {
+	background-color: blue;
+}
+
+}
+.cont2 .cd{
+	text-align: left;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.fa-solid {
+	font-size: 70px;
+	text-align: left;
+	color: orange;
+
+}
+.cd:hover {
+	background-color: silver;
+	color: white;
+}
+
+.cd {
+	padding: 20px;
+}
+.cd .fa-solid:hover {
+	color: white;
+}
+.bord-pics .bim2 {
+	height: 200px;
+	width: 200px;
+	padding:5px;
+
+}
+.bord-pics .bim {
+	height: 250px;
+	width: 250px;
+	padding:5px;
+}
+.bord-pics pc3 {
+	
+}
+.bord-pics pc2 {
+	margin-top: 100px;
+}
+
+.bord {
+	
+	margin: auto;
+	padding: 30px;
+
+}
+.bord-data {
+	margin-left: 30px;
+}
+.bord-data h5 {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 35px;
+	color: orange;
+}
+.bord-pics {
+	margin-left: 50px;
+}
+.hed {
+	text-align: center;
+	margin-top: 100px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 770px) {
+	.bord {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.bord-pics {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+	}
+	.bord-pics .bim2 .bim1 {
+		height: 300px;
+		width: 300px;
+	}
+	.bord-data {
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+}
+.fa-horizontal-rule {
+	color: red;
+}
+.m-i {
+	margin-top: 40px;
+	height: 100px;
+	width: 100px;
+	margin-right: 20px;
+
+}
+.menu-m {
+	margin: 30px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+.menu-m .m1 {
+	padding: 30px;
+}
+.dd {
+	margin-top: 30px;
+
+}
+.dd h1 {
+	padding: -20px;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+
+
+	.menu-m {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: lightgreen;
+	}
+}
+
+.dd h1{
+	font-size: 25px;
+	padding: 5px;
+
+} 
+
+.vd {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.vd div {
+	margin: 10px;
+}
+.b1 {
+	height: 400px;
+	width: 50%;
+	background-color: red;
+}
+.b2 {
+	height: 400px;
+	width: 50%;
+	background-color: green;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+	.vd {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.vd div {
+		margin: 20px;
+	}
+	.b1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: yellow;
+	}
+	.b2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: orange;
+	}
+}
+
+.chefs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.cf {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 100px;
+
+}
+.cf .c-i {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+@media screen and (min-width: 400px) and (max-width: 770px) {
+	.cf-list {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
+.cf h1 {
+	font-size: 25px;
+}
+/*==============================*/
+.ft {
+	background-color: #12102b;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	margin-top: 100px;
+}.ll {
+	color: white;
+
+}
+.ll div {
+	margin: 60px;
+}
+@media screen and (min-width: 400px) and (max-width: 770px){
+	.ft .ll {
+		display: flex;
+		flex-direction: column;
+		background-color: red;
+		color: white;
+
+	}
+}
+.pk .p1 {
+	height: 50px;
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.pk .p2 {
+	height: 50px;
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.pk .p3 {
+	width: 500px;
+	height: 100px;
+	text-align: left;
+}
+
+@media screen and (min-width: 400px) and (max-width: 770px){
+
+	.row-cont{
+		display: flex;
+		flex-direction: column;
+		background-color: transparent;
+	}
+	.pl {
+		width: auto;
+	}
+	.pk {
+		width: auto;
+	}
+}
+
+.bb {
+	width: 90%;
+	height: 50px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.cl {
+	border-radius: 50px;
+	height: 80px;
+	width: 80px;
+
+}
+@media screen and (min-width: 400px) and (max-width: 770px){
+	.row-hh {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}

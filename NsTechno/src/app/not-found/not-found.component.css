@@ -1,0 +1,50 @@
+.row-1 div{
+    border: 5px solid silver;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 20px 0;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.row-2 {
+    border: 5px solid silver;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+
+
+table, th, td {
+  border:1px solid black;
+  padding: 20px;
+}
+.bb {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.ng {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid silver;
+    border-radius: 30px;
+    margin: 10px;
+}
+.ng img {
+    height: 300px;
+    width: 200px;
+}
+.ng>h3{
+    font-size: 20px;
+}
+.ng>h1{
+    font-size: 25px;
+}
