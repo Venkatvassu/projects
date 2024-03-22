@@ -1,0 +1,12 @@
+.ng img {
+    height: 200px;
+    width: 200px;
+}
+.ng {
+    justify-content: center;
+    align-items: center;
+
+}
+.ng h1 {
+    font-size: 20px;
+}

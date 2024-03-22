@@ -1,0 +1,12 @@
+.navbar-brand {
+    margin-left: 100px;
+    color: red;
+    font-size: 50px;
+    font-family:cursive;
+}
+.navbar-nav {
+    margin-left: 200px;
+}
+.navbar-nav>a {
+    padding-left: 20px;
+}

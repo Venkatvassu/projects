@@ -27,6 +27,7 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 
 
 
+
 const routes:Routes = [
 {
   path:"",redirectTo:'/home',pathMatch:'full'
@@ -69,6 +70,7 @@ const routes:Routes = [
     GalaryComponent,
     FormComponent,
     NotFoundComponent,
+
 
   ],
   imports: [
