@@ -1,0 +1,35 @@
+
+.img {
+    height: 200px;
+    /* width: 200px; */
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.cd1 {
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+.cd {
+    border: 1px solid silver;
+
+    /* height: 350px; */
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 0 0 10px #756f6f;
+        box-shadow: 0 0 10px #756f6f;
+
+}
+.dt {
+
+    padding-left: 20px;
+}
+.h6 {
+    margin-top: 10px;
+}
+.text-success {
+    font-weight: bold;
+}

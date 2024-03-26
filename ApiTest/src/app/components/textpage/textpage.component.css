@@ -5,8 +5,15 @@
 .ng {
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .ng h1 {
     font-size: 20px;
+}
+.ng div {
+    border:  2px solid silver;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
 }
