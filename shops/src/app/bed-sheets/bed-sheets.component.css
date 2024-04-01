@@ -1,0 +1,64 @@
+.colm2 span {
+    color: silver;
+    font-size: 20px;
+
+}
+.colm2 select{
+    width: 200px;
+    border-width: 2px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+
+}
+option{
+    background-color: transparent;
+}
+
+.colm2 div {
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.cd {
+    height: 400px;
+    width: 220px;
+    border: 2px solid silver;
+    text-align: center;
+    margin-left: 5px;
+
+}
+.cd span {
+    padding: 0 1px;
+    font-size: 15px;
+}
+.cd img {
+    height: 250px;
+    width: 100%;
+}
+.cards {
+    flex-wrap: wrap;
+
+}
+.colm1 {
+    width: 15%;
+}
+.colm2 {
+    width: 85%;
+}
+.colm2  .cards {
+    margin-top: -50px;
+
+}
+.ic {
+    font-size: 30px;
+    color: darkblue;
+    margin: 50px;
+}
+.colm3 div {
+    margin: 10px;
+}
+.colm3 {
+    background-color: silver;
+    width: 100%;
+    justify-content: space-around;
+}

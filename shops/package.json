@@ -1,5 +1,5 @@
 {
-  "name": "task1",
+  "name": "shops",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:task1": "node dist/task1/server/server.mjs"
+    "serve:ssr:shops": "node dist/shops/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +23,6 @@
     "@angular/ssr": "^17.2.2",
     "bootstrap": "^5.3.3",
     "express": "^4.18.2",
-    "firebase-tools": "^13.5.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

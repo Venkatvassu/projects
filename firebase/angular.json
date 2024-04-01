@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task1": {
+    "firebase": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -35,8 +35,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -73,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "task1:build:production"
+              "buildTarget": "firebase:build:production"
             },
             "development": {
-              "buildTarget": "task1:build:development"
+              "buildTarget": "firebase:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "task1:build"
+            "buildTarget": "firebase:build"
           }
         },
         "test": {
@@ -109,6 +108,6 @@
     }
   },
   "cli": {
-    "analytics": "b89668e0-450f-45c7-9203-565d98ad6ee1"
+    "analytics": "7fdb108c-8303-4a99-92a7-7850f2c83fb7"
   }
 }

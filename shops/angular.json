@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task1": {
+    "shops": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/shops",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "task1:build:production"
+              "buildTarget": "shops:build:production"
             },
             "development": {
-              "buildTarget": "task1:build:development"
+              "buildTarget": "shops:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "task1:build"
+            "buildTarget": "shops:build"
           }
         },
         "test": {
@@ -109,6 +109,6 @@
     }
   },
   "cli": {
-    "analytics": "b89668e0-450f-45c7-9203-565d98ad6ee1"
+    "analytics": "bd67b67d-6c3d-4f44-b9e8-05893addbd58"
   }
 }
